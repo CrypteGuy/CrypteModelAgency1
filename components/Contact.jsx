@@ -13,13 +13,13 @@ function Contact() {
   useEffect(() => {
     gsap.from(contactTitle, 1.5, {
       opacity: 0,
-      y: 70,
+      x: 100,
       ease: Power3.easeOut,
       scrollTrigger: contactTitle,
     });
     gsap.from([contactInfo, contactInfo2, contactInfo3], 1.5, {
       opacity: 0,
-      y: 70,
+      x: -100,
       ease: Power3.easeOut,
       scrollTrigger: contactInfo3,
     });

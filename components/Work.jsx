@@ -58,12 +58,12 @@ function Work() {
       ease: Power4.easeIn,
       scrollTrigger: image6,
     });
-    gsap.to(image7, 1, {
+    gsap.to(image8, 1, {
       opacity: 1,
       ease: Power2.easeIn,
       scrollTrigger: image8,
     });
-    gsap.to(image8, 2, {
+    gsap.to(image7, 2, {
       opacity: 1,
       ease: Power4.easeIn,
       scrollTrigger: image8,
