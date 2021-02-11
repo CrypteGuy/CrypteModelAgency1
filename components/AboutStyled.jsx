@@ -9,7 +9,7 @@ export const AboutDiv = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding: 60rem 5rem 30.3125rem 5rem;
+  margin: 60rem 5rem 30.3125rem 5rem;
 `;
 
 // About Title

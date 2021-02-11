@@ -42,14 +42,23 @@ export default function Navbar() {
           <NavHamburger />
         </NavHamburgerDiv>
         <NavItemDiv>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>WORK</NavItem>
-          <NavItem>CONTACT</NavItem>
+          <NavItem href="/#about">ABOUT</NavItem>
+          <NavItem href="/#work">WORK</NavItem>
+          <NavItem href="/#contact">CONTACT</NavItem>
         </NavItemDiv>
         <NavMenu open={open}>
-          <NavMenuItem onClick={openMenu}>WORK</NavMenuItem>
-          <NavMenuItem onClick={openMenu}>ABOUT</NavMenuItem>
-          <NavMenuItem onClick={openMenu}>HOME</NavMenuItem>
+          <NavMenuItem href="/#work" onClick={openMenu}>
+            WORK
+          </NavMenuItem>
+          <NavMenuItem href="/#about" onClick={openMenu}>
+            ABOUT
+          </NavMenuItem>
+          <NavMenuItem href="/#contact" onClick={openMenu}>
+            CONTACT
+          </NavMenuItem>
+          <NavMenuItem href="/" onClick={openMenu}>
+            HOME
+          </NavMenuItem>
         </NavMenu>
       </NavDiv>
     </>

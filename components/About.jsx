@@ -27,6 +27,7 @@ function About() {
   return (
     <AboutDiv>
       <AboutTitle
+        id="about"
         ref={(el) => {
           aboutTitle = el;
         }}

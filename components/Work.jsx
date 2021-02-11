@@ -71,7 +71,7 @@ function Work() {
   });
 
   return (
-    <WorkDiv>
+    <WorkDiv id="work">
       <WorkTitle
         ref={(el) => {
           workTitle = el;

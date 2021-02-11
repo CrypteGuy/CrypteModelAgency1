@@ -31,6 +31,7 @@ export const Sidebar = styled.div`
 // Nav Containers
 
 export const NavDiv = styled.div`
+  z-index: 100;
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -84,7 +85,7 @@ export const NavLogo = styled.a`
 
 // Nav Items
 
-export const NavItem = styled.h1`
+export const NavItem = styled.a`
   font-size: 1.375rem;
   font-weight: 500;
 
@@ -179,12 +180,12 @@ export const NavMenuItem = styled.a`
       margin-bottom: 1rem;
     }
 
-    &:not(:first-child, :nth-child(2)) {
-      margin-bottom: 1rem;
+    &:not(:first-child, :nth-child(2), :nth-child(3)) {
+      padding-bottom: 1rem;
     }
 
-    &:not(:last-child, :nth-child(2)) {
-      margin-top: 1rem;
+    &:not(:last-child, :nth-child(2), :nth-child(3)) {
+      padding-top: 1rem;
     }
   }
   @media ${maxdevice.mobileS} {

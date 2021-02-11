@@ -26,7 +26,7 @@ function Contact() {
   });
 
   return (
-    <ContactDiv>
+    <ContactDiv id="contact">
       <ContactTitle
         ref={(el) => {
           contactTitle = el;
