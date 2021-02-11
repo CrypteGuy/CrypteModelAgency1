@@ -33,9 +33,10 @@ function Work() {
       ease: Power2.easeIn,
       scrollTrigger: image2,
     });
-    gsap.to(image2, 2, {
+    gsap.to(image2, 1, {
       opacity: 1,
       ease: Power4.easeIn,
+      delay: 2,
       scrollTrigger: image2,
     });
     gsap.to(image4, 1, {
@@ -43,30 +44,33 @@ function Work() {
       ease: Power2.easeIn,
       scrollTrigger: image4,
     });
-    gsap.to(image3, 2, {
+    gsap.to(image3, 1, {
       opacity: 1,
       ease: Power4.easeIn,
       scrollTrigger: image4,
+      delay: 2,
     });
     gsap.to(image5, 1, {
       opacity: 1,
       ease: Power2.easeIn,
       scrollTrigger: image6,
     });
-    gsap.to(image6, 2, {
+    gsap.to(image6, 1, {
       opacity: 1,
       ease: Power4.easeIn,
       scrollTrigger: image6,
+      delay: 2,
     });
     gsap.to(image8, 1, {
       opacity: 1,
       ease: Power2.easeIn,
       scrollTrigger: image8,
     });
-    gsap.to(image7, 2, {
+    gsap.to(image7, 1, {
       opacity: 1,
       ease: Power4.easeIn,
       scrollTrigger: image8,
+      delay: 2,
     });
   });
 
