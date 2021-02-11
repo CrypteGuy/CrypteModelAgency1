@@ -10,6 +10,10 @@ export const ContactDiv = styled.div`
   justify-content: center;
 
   margin-bottom: 30.3125rem;
+
+  @media ${maxdevice.tablet} {
+    margin-bottom: 15.3125rem;
+  }
 `;
 
 // Contact Title

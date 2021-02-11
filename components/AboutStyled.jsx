@@ -10,6 +10,10 @@ export const AboutDiv = styled.div`
   justify-content: center;
 
   margin: 60rem 5rem 30.3125rem 5rem;
+
+  @media ${maxdevice.tablet} {
+    margin: 30rem 5rem 15.3125rem 5rem;
+  }
 `;
 
 // About Title

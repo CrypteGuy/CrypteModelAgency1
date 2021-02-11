@@ -9,6 +9,10 @@ export const WorkDiv = styled.div`
   align-items: center;
 
   margin-bottom: 30.3125rem;
+
+  @media ${maxdevice.tablet} {
+    margin-bottom: 15.3125rem;
+  }
 `;
 
 export const WorkImageDiv = styled.div`

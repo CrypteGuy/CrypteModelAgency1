@@ -156,7 +156,7 @@ export const NavMenu = styled.div`
 
     transition: all 300ms ease-in-out;
 
-    max-height: ${({ open }) => (open ? '10rem' : '0')};
+    max-height: ${({ open }) => (open ? '11rem' : '0')};
   }
 
   @media ${maxdevice.tablet} {
@@ -181,11 +181,11 @@ export const NavMenuItem = styled.a`
     }
 
     &:not(:first-child, :nth-child(2), :nth-child(3)) {
-      padding-bottom: 1rem;
+      padding-bottom: 1.5rem;
     }
 
     &:not(:last-child, :nth-child(2), :nth-child(3)) {
-      padding-top: 1rem;
+      padding-top: 1.5rem;
     }
   }
   @media ${maxdevice.mobileS} {
